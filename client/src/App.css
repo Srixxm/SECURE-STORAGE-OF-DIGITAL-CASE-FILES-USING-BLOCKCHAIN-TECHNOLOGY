@@ -1,0 +1,39 @@
+ /* Navbar.css */
+ 
+.horizontal-navbar {
+  
+  background-color: #000000; /* Navbar background color */
+  padding: 15px; /* Padding around the navbar */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center align the items */
+}
+
+.nav-item {
+  
+  margin: 0 15px; /* Space between items */
+}
+
+.nav-item a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem; /* Font size */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  padding: 10px; /* Padding for each link */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.nav-item a:hover {
+  background-color: #ffffff; /* Change background color on hover */
+  color: rgb(0, 0, 0); /* Ensure text color is white on hover */
+}
+video
+{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
